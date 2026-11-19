@@ -39,18 +39,6 @@ Altitude, vertical velocity, tilt angle, Critic value prediction, and thruster p
 * **Updates:** Shuffled mini-batch gradient descent (`K_epochs = 10`), which was essential for breaking out of the early "hovering" local optimum
 * **Architecture:** Separate Actor and Critic MLPs (`Tanh` activations)
 
-## Quick Start
-
-```bash
-# Install dependencies
-pip install torch gymnasium[box2d] matplotlib numpy
-
-# Train the agent
-python train.py
-
-# Evaluate and generate all analysis plots
-python evaluate_and_plot.py
-
 
 ## References
 
