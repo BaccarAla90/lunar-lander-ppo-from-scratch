@@ -25,7 +25,7 @@ Consistent landing precision across 100 random terrains and spawn impulses.
 
 | Critic Value Heatmap | Actor Decision Map |
 | :---: | :---: |
-| ![Value Heatmap](assets/1_value_heatmap.png) | ![Decision Map](assets/2_decision_boundary.png)|
+| ![Value Heatmap](assets/1_value_heatmap.png) | ![Decision Map](assets/2_decision_boundary.png) |
 
 ### Single-Episode Flight Telemetry
 Altitude, vertical velocity, tilt angle, Critic value prediction, and thruster probabilities over a full landing:
