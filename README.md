@@ -1,7 +1,5 @@
 
 
-
-
 # PPO from Scratch — LunarLander-v3 (PyTorch)
 https://github.com/user-attachments/assets/d132e5b1-af06-4513-b20f-63d1c9933cce
 
@@ -52,5 +50,13 @@ python train.py
 
 # Evaluate and generate all analysis plots
 python evaluate_and_plot.py
+
+
+## References
+
+1. **PPO:** J. Schulman, F. Wolski, P. Dhariwal, A. Radford, and O. Klimov, *"Proximal Policy Optimization Algorithms,"* arXiv:1707.06347, 2017. [[Paper]](https://arxiv.org/abs/1707.06347)
+2. **GAE:** J. Schulman, P. Moritz, S. Levine, M. Jordan, and P. Abbeel, *"High-Dimensional Continuous Control Using Generalized Advantage Estimation,"* ICLR, 2016. [[Paper]](https://arxiv.org/abs/1506.02438)
+3. **Gymnasium:** M. Towers, A. Kwiatkowski, J. Terry, et al., *"Gymnasium: A Standard Interface for Reinforcement Learning Environments,"* NeurIPS Datasets and Benchmarks, 2025. [[Paper]](https://arxiv.org/abs/2407.17032)
+4. **Environment:** Farama Foundation, *"LunarLander-v3 Documentation,"* Gymnasium. [[Docs]](https://gymnasium.farama.org/environments/box2d/lunar_lander/)
 
 
